@@ -8,7 +8,7 @@ But with `4.0.0` run with AOT enabled, the application fails with an exception.
 ## Build and run
 
 ```
-mvn package -P springAot
+mvn -P springAot package
 ```
 
 Then run with `-Dspring.aot.enabled=true`.
